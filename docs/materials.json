@@ -1,200 +1,236 @@
 [
   {
-    "id": "00-b-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: indigo denim lowercase b assembled from a straight belt loop and rounded pocket, tobacco double topstitch and a small copper rivet; genuine denim seam construction. Exact key text is lowercase \"b\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "b",
-    "variant": "a",
+    "id": "00-l-a",
     "position": 0,
-    "label": "牛仔口袋与裤耳",
-    "file": "assets/00-b-a.webp"
+    "letter": "L",
+    "variant": "a",
+    "label": "钴蓝体素阶梯 L",
+    "file": "assets/00-l-a.webp",
+    "prompt": "Use case: stylized-concept. Asset type: interactive portfolio title glyph. Create ONE standalone asset representing the exact uppercase character L for position 00, variant A, in the title Lynn‘s profile. Image 1 supplies black grain, cosmic restraint, and soft chalky glow; Image 2 supplies chunky voxel/pixel-object construction; Image 3 supplies early-computer pixel typography and retro digital collage. A clearly readable uppercase L constructed as a chunky 8-bit cobalt-blue staircase, with one tiny pale-yellow pixel star tucked at the inside corner. Crisp low-resolution pixel art with slight voxel depth; white one-pixel outline softened by a restrained white glow. Single centered object only, front-facing, complete silhouette, generous 12% safe margins. Exact character L must remain instantly readable at small size; genuinely transparent alpha background; preserve hard square pixels; no black rectangle, no surrounding scene, no extra letters, no words, no watermark."
   },
   {
-    "id": "00-b-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: an asymmetric scalloped apricot cloth hangtag shaped like a pear, big cobalt lowercase b in flat woven jacquard on its face, short mint braided cord through one eyelet; outer shape is pear. Exact key text is lowercase \"b\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "b",
-    "variant": "b",
+    "id": "00-l-b",
     "position": 0,
-    "label": "梨形织唛吊牌",
-    "file": "assets/00-b-b.webp"
-  },
-  {
-    "id": "01-o-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a pleated raspberry grosgrain award rosette with a cream circular center and cobalt embroidered lowercase o, two short mismatched ribbon tails; full rosette silhouette. Exact key text is lowercase \"o\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "o",
-    "variant": "a",
-    "position": 1,
-    "label": "褶皱缎带奖章",
-    "file": "assets/01-o-a.webp"
-  },
-  {
-    "id": "01-o-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a flat two-tone lime and navy cat woven patch, curled cat and its tail forming lowercase o, merrowed edge; graphic loom-woven design, no plush volume. Exact key text is lowercase \"o\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "o",
+    "letter": "L",
     "variant": "b",
+    "label": "轨道点阵 L",
+    "file": "assets/00-l-b.webp",
+    "prompt": "Use case: stylized-concept. Image 1 supplies black-grain cosmic restraint and chalky glow; Image 2 supplies chunky voxel/pixel-object construction; Image 3 supplies early-computer bitmap typography. Create ONE asset for exact uppercase L, title position 00, variant B. A flat off-white bitmap L made from orbital dotted pixels, with one tiny coral cursor-square at the lower corner. Front-facing, minimal, instantly readable at small size. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, subtle soft white one-pixel glow outline, no surrounding scene, no extra letters or words, no watermark."
+  },
+  {
+    "id": "01-y-a",
     "position": 1,
-    "label": "双色猫形织章",
-    "file": "assets/01-o-b.webp"
-  },
-  {
-    "id": "02-k-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: lowercase k assembled from three dark denim strips joined by two brass snaps, tiny striped fabric tab, contrasting ivory stitching; clear lowercase proportions. Exact key text is lowercase \"k\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "k",
+    "letter": "y",
     "variant": "a",
-    "position": 2,
-    "label": "铆钉牛仔条拼接",
-    "file": "assets/02-k-a.webp"
+    "label": "荧光天线 y",
+    "file": "assets/01-y-a.webp",
+    "prompt": "Use case: stylized-concept. Image 1 supplies black-grain cosmic restraint and chalky glow; Image 2 supplies chunky voxel/pixel-object construction; Image 3 supplies early-computer bitmap typography. Create ONE asset for exact lowercase y, title position 01, variant A. A chartreuse voxel y shaped like a playful forked antenna, dark navy pixel shadows and a tiny pale-blue star at the descender. Front-facing, bold and readable. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, subtle soft white one-pixel glow outline, no surrounding scene, no extra letters or words, no watermark."
   },
   {
-    "id": "02-k-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: cobalt horse-shaped flat felt hangtag with a large coral lowercase k appliqued on its flank, short white cord, tiny scalloped mane; whole horse silhouette. Exact key text is lowercase \"k\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "k",
+    "id": "01-y-b",
+    "position": 1,
+    "letter": "y",
     "variant": "b",
+    "label": "CRT 扫描线 y",
+    "file": "assets/01-y-b.webp",
+    "prompt": "Use case: stylized-concept. Image 1 supplies black-grain cosmic restraint and chalky glow; Image 2 supplies chunky voxel/pixel-object construction; Image 3 supplies early-computer bitmap typography. Create ONE asset for exact lowercase y, title position 01, variant B. A flat cyan bitmap y with magenta scanline fragments and a tiny white pixel sparkle, inspired by a 1990s CRT interface. No frame, glyph silhouette itself. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, subtle soft white one-pixel glow outline, no surrounding scene, no extra letters or words, no watermark."
+  },
+  {
+    "id": "02-n-a",
     "position": 2,
-    "label": "马形毛毡挂件",
-    "file": "assets/02-k-b.webp"
+    "letter": "n",
+    "variant": "a",
+    "label": "珊瑚体素拱门 n",
+    "file": "assets/02-n-a.webp",
+    "prompt": "Use case: stylized-concept. Image 1 supplies black-grain cosmic restraint and chalky glow; Image 2 supplies chunky voxel/pixel-object construction; Image 3 supplies early-computer bitmap typography. Create ONE asset for exact lowercase n, title position 02, variant A. A coral-red chunky voxel arch forming n, with pale-yellow highlights and deep blue pixel shadows. Single self-contained object, front-facing, clearly lowercase. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, subtle soft white one-pixel glow outline, no surrounding scene, no extra letters or words, no watermark."
+  },
+  {
+    "id": "02-n-b",
+    "position": 2,
+    "letter": "n",
+    "variant": "b",
+    "label": "冰蓝数字回声 n",
+    "file": "assets/02-n-b.webp",
+    "prompt": "Use case: stylized-concept. Image 1 is a mood reference for black grain, cosmic restraint and chalky glow; Image 2 is a reference for chunky voxel/pixel-object construction; Image 3 is a reference for early-computer bitmap typography. Create exactly one standalone interactive portfolio title glyph: exact lowercase n, position 02 variant B in Lynn‘s profile. Flat pale-blue bitmap n assembled from tiny square pixels, with a few lavender scanline offsets like a gentle digital echo. Instantly readable lowercase n. Genuinely transparent alpha background; centered complete silhouette with 12% safe margins; preserve hard square pixels; a thin white pixel outline with restrained soft glow; no black rectangle, no surrounding scene, no extra letters, no words, no watermark."
   },
   {
     "id": "03-n-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: neon chartreuse felt lowercase n with exaggerated black zigzag hand-stitching across its strokes and two short loose thread ends; flat editorial sewn typography. Exact key text is lowercase \"n\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
+    "position": 3,
     "letter": "n",
     "variant": "a",
-    "position": 3,
-    "label": "荧光毛毡黑色缝线",
-    "file": "assets/03-n-a.webp"
+    "label": "街机管道 n",
+    "file": "assets/03-n-a.webp",
+    "prompt": "Use case: stylized-concept. Image 1 is a mood reference for black grain, cosmic restraint and chalky glow; Image 2 is a reference for chunky voxel/pixel-object construction; Image 3 is a reference for early-computer bitmap typography. Create exactly one standalone interactive portfolio title glyph: exact lowercase n, position 03 variant A in Lynn‘s profile. Distinct from the previous n: chartreuse voxel n built like two arcade pipes joined by a coral bridge, with navy block shadows. Bold, front-facing, readable lowercase n. Genuinely transparent alpha background; centered complete silhouette with 12% safe margins; preserve hard square pixels; a thin white pixel outline with restrained soft glow; no black rectangle, no surrounding scene, no extra letters, no words, no watermark."
   },
   {
     "id": "03-n-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a coral rectangular woven clothing label folded over a small cream canvas backing, big navy lowercase n stitched onto the face with a tiny mint leaf and side tab; garment label composition. Exact key text is lowercase \"n\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
+    "position": 3,
     "letter": "n",
     "variant": "b",
-    "position": 3,
-    "label": "叠层服装织标",
-    "file": "assets/03-n-b.webp"
+    "label": "棋盘格 n",
+    "file": "assets/03-n-b.webp",
+    "prompt": "Use case: stylized-concept. Image 1 is a mood reference for black grain, cosmic restraint and chalky glow; Image 2 is a reference for chunky voxel/pixel-object construction; Image 3 is a reference for early-computer bitmap typography. Create exactly one standalone interactive portfolio title glyph: exact lowercase n, position 03 variant B in Lynn‘s profile. Distinct flat retro-computer n made from white and cobalt checkerboard pixels, interrupted by one small pale-yellow blinking square. Readable lowercase n, no frame. Genuinely transparent alpha background; centered complete silhouette with 12% safe margins; preserve hard square pixels; a thin white pixel outline with restrained soft glow; no black rectangle, no surrounding scene, no extra letters, no words, no watermark."
   },
   {
-    "id": "04-o-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: an oatmeal canvas circular ring patch with tiny cobalt embroidered flowers around the rim and a coral stitched edge, lowercase o negative space; restrained floral embroidery. Exact key text is lowercase \"o\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "o",
-    "variant": "a",
+    "id": "04-apostrophe-a",
     "position": 4,
-    "label": "花卉刺绣圆环",
-    "file": "assets/04-o-a.webp"
-  },
-  {
-    "id": "04-o-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a double-layer mint and red oval cardstock hangtag with a lowercase o die-cut window and short knotted cotton cord; flat graphic cutout reveals red backing, not a 3D toy. Exact key text is lowercase \"o\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "o",
-    "variant": "b",
-    "position": 4,
-    "label": "双层镂空吊牌",
-    "file": "assets/04-o-b.webp"
-  },
-  {
-    "id": "05-w-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a wide lowercase w folded from blue-white gingham ribbon, seams secured with contrasting red bar-tacks, slight dimensional fabric folds and one folded label tab. Exact key text is lowercase \"w\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "w",
+    "letter": "'",
     "variant": "a",
-    "position": 5,
-    "label": "格纹折带",
-    "file": "assets/05-w-a.webp"
+    "label": "黄蓝体素直撇号",
+    "file": "assets/04-apostrophe-a.webp",
+    "prompt": "Use case: stylized-concept. Asset type: interactive portfolio title punctuation glyph. Primary request: Create ONE replacement asset for the exact ASCII straight apostrophe character ' (Unicode U+0027), position 04 variant A, in the title Lynn's profile. Images 1–3 are visual references for black-grain cosmic restraint, chunky voxel/pixel construction, and early-computer bitmap typography. Image 4 is the prior variant A style reference; preserve its pale-yellow face, cobalt-blue voxel depth, white pixel outline, and restrained soft glow, but correct the punctuation shape. A compact straight apostrophe made from a short vertical stack of square voxels, with a flat top and a subtly narrower lower end; unmistakably the ASCII apostrophe used between n and s. One centered punctuation mark only, front-facing, complete silhouette, generous 16% safe margins. Exact straight apostrophe U+0027; no curve, no hook, no comma tail, no left or right curly quote, no letter; genuinely transparent alpha background; hard square pixels; no black rectangle, no surrounding scene, no extra text, no watermark."
   },
   {
-    "id": "05-w-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a tiny cream canvas postage-stamp patch with scalloped edges, embroidered cobalt whale and a large coral lowercase w, flat illustrative embroidery with visible stitch direction. Exact key text is lowercase \"w\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "w",
+    "id": "04-apostrophe-b",
+    "position": 4,
+    "letter": "'",
     "variant": "b",
-    "position": 5,
-    "label": "鲸鱼邮票绣章",
-    "file": "assets/05-w-b.webp"
+    "label": "珊瑚点阵直撇号",
+    "file": "assets/04-apostrophe-b.webp",
+    "prompt": "Use case: stylized-concept. Asset type: interactive portfolio title punctuation glyph. Primary request: Create ONE replacement asset for the exact ASCII straight apostrophe character ' (Unicode U+0027), position 04 variant B, in the title Lynn's profile. Images 1–3 are visual references for black-grain cosmic restraint, chunky voxel/pixel construction, and early-computer bitmap typography. Image 5 is the prior variant B style reference; preserve its coral-red flat bitmap palette, ice-blue sparkle, white pixel outline, and restrained soft glow, but correct the punctuation shape. A straight early-computer bitmap apostrophe formed by a compact 3-by-7 vertical pixel stack with a flat top and tiny diagonal taper at the bottom; clearly the ASCII apostrophe between n and s. One centered punctuation mark only, front-facing, complete silhouette, generous 16% safe margins. Exact straight apostrophe U+0027; no curve, no hook, no comma tail, no left or right curly quote, no letter; genuinely transparent alpha background; hard square pixels; no black rectangle, no surrounding scene, no extra text, no watermark."
   },
   {
-    "id": "06-s-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a chunky pale pink satin-stitch embroidered lowercase s with dark teal twisted thread border and one tiny yellow embroidered star; embroidery patch outer silhouette. Exact key text is lowercase \"s\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
+    "id": "05-s-a",
+    "position": 5,
     "letter": "s",
     "variant": "a",
-    "position": 6,
-    "label": "缎面星星刺绣",
-    "file": "assets/06-s-a.webp"
+    "label": "钴蓝街机轨道 s",
+    "file": "assets/05-s-a.webp",
+    "prompt": "Use case: stylized-concept. Image 1 is a mood reference for black grain, cosmic restraint and chalky glow; Image 2 is a reference for chunky voxel/pixel-object construction; Image 3 is a reference for early-computer bitmap typography. Create exactly one standalone interactive portfolio title glyph: exact lowercase s, position 05 variant A in Lynn‘s profile. A cobalt-blue voxel s shaped like a looping arcade track, pale pink face pixels and deep navy side blocks. Front-facing and clearly lowercase s. Genuinely transparent alpha background; centered complete silhouette with 12% safe margins; preserve hard square pixels; a thin white pixel outline with restrained soft glow; no black rectangle, no surrounding scene, no extra letters, no words, no watermark."
   },
   {
-    "id": "06-s-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: an irregular navy cloth tag with a cream swan applique whose neck reads as lowercase s, coral square corner patch and short striped loop; graphic flat fabric collage. Exact key text is lowercase \"s\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
+    "id": "05-s-b",
+    "position": 5,
     "letter": "s",
     "variant": "b",
+    "label": "粉色像素蛇 s",
+    "file": "assets/05-s-b.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase s, position 05 variant B in Lynn‘s profile. Flat hot-pink 8-bit s curling like a tiny friendly pixel snake, one chartreuse eye-pixel and sparse cyan scanline echoes. The silhouette must still read immediately as lowercase s. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel glow outline, no black rectangle, no surrounding scene, no extra text, no watermark."
+  },
+  {
+    "id": "06-p-a",
     "position": 6,
-    "label": "天鹅拼布布标",
-    "file": "assets/06-s-b.webp"
-  },
-  {
-    "id": "07-w-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: lowercase w assembled from washed denim and cream floral cotton patchwork, small pearly button and hand-sewn contrasting seams; readable wide letter shape. Exact key text is lowercase \"w\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "w",
+    "letter": "p",
     "variant": "a",
-    "position": 7,
-    "label": "牛仔碎花拼布",
-    "file": "assets/07-w-a.webp"
+    "label": "黄色街机旗 p",
+    "file": "assets/06-p-a.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase p, position 06 variant A. A pale-yellow chunky voxel p designed like a small arcade flag on a long descender, cobalt side blocks and one coral square accent. Bold, front-facing, readable. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel glow outline, no black rectangle, no surrounding scene, no extra text, no watermark."
   },
   {
-    "id": "07-w-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a lime flower-shaped felt pendant bearing one black lowercase w made with thick zigzag stitch, hot-pink backing peeking out, short cobalt cord; complete flower outline. Exact key text is lowercase \"w\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "w",
+    "id": "06-p-b",
+    "position": 6,
+    "letter": "p",
     "variant": "b",
+    "label": "冰蓝传送门 p",
+    "file": "assets/06-p-b.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase p, position 06 variant B. Flat ice-blue bitmap p whose counter is a dark transparent hole ringed by lavender pixels, with a tiny white cursor sparkle. No frame; readable lowercase p. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel glow outline, no black rectangle, no surrounding scene, no extra text, no watermark."
+  },
+  {
+    "id": "07-r-a",
     "position": 7,
-    "label": "花形缝线挂件",
-    "file": "assets/07-w-b.webp"
+    "letter": "r",
+    "variant": "a",
+    "label": "珊瑚收音机天线 r",
+    "file": "assets/07-r-a.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase r, position 07 variant A. Coral-orange voxel r resembling a compact retro radio antenna, deep navy block shadows and a pale-blue highlight. Front-facing, clearly lowercase r, no other symbols. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel glow outline, no black rectangle, no surrounding scene, no extra text, no watermark."
+  },
+  {
+    "id": "07-r-b",
+    "position": 7,
+    "letter": "r",
+    "variant": "b",
+    "label": "白色抖动点阵 r",
+    "file": "assets/07-r-b.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase r, position 07 variant B. Flat off-white dithered bitmap r with a cobalt offset shadow and one pale-yellow blinking pixel at the shoulder. Minimal early-computer glyph, instantly readable. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel glow outline, no black rectangle, no surrounding scene, no extra text, no watermark."
   },
   {
     "id": "08-o-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: turquoise fabric-wrapped circular ring with braided pink-lilac cord looping through it, small neon yellow woven tab and compact metal clip, ring reads lowercase o; fashion keychain. Exact key text is lowercase \"o\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
+    "position": 8,
     "letter": "o",
     "variant": "a",
-    "position": 8,
-    "label": "编绳布环钥匙扣",
-    "file": "assets/08-o-a.webp"
+    "label": "荧光轨道环 o",
+    "file": "assets/08-o-a.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase o, position 08 variant A in Lynn‘s profile. A chartreuse chunky voxel orbit-ring o, with a transparent center, cobalt depth blocks and one coral satellite pixel attached to the outer rim. Front-facing and clearly o. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel outline/glow, no black rectangle, no surrounding scene, no extra letters or words, no watermark."
   },
   {
     "id": "08-o-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a square apricot woven patch with broad navy checkerboard border and a big mint lowercase o formed by chain stitching, tiny red corner tab; flat knit label. Exact key text is lowercase \"o\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
+    "position": 8,
     "letter": "o",
     "variant": "b",
-    "position": 8,
-    "label": "棋盘格链式刺绣",
-    "file": "assets/08-o-b.webp"
+    "label": "冰蓝抖动圆环 o",
+    "file": "assets/08-o-b.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase o, position 08 variant B. Flat ice-blue dithered bitmap o with lavender scanline breaks and one pale-yellow cursor-square touching the rim. Clean transparent counter, no frame. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel outline/glow, no black rectangle, no surrounding scene, no extra letters or words, no watermark."
   },
   {
-    "id": "09-r-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a lowercase r cut from deep indigo denim with cream blanket-stitch border, one tiny cream embroidered crescent and red bartack detail; jean applique. Exact key text is lowercase \"r\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "r",
-    "variant": "a",
+    "id": "09-f-a",
     "position": 9,
-    "label": "月牙牛仔布贴",
-    "file": "assets/09-r-a.webp"
-  },
-  {
-    "id": "09-r-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: two offset cobalt and coral rectangular hangtags with a large lowercase r cut through the blue front to reveal the red layer, white cotton string and yellow eyelet; precise graphic paper construction. Exact key text is lowercase \"r\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "r",
-    "variant": "b",
-    "position": 9,
-    "label": "双色镂空吊牌",
-    "file": "assets/09-r-b.webp"
-  },
-  {
-    "id": "10-d-a",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: a plump lowercase d sewn from mint corduroy with vertical wales, raspberry piping, a single small yellow cloth star applique; soft but clearly legible. Exact key text is lowercase \"d\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "d",
+    "letter": "f",
     "variant": "a",
-    "position": 10,
-    "label": "灯芯绒软字母",
-    "file": "assets/10-d-a.webp"
+    "label": "紫色街机括号 f",
+    "file": "assets/09-f-a.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase f, position 09 variant A. A lavender chunky voxel f shaped like a compact arcade bracket, dark cobalt side blocks and one coral highlight tile. Bold, front-facing, clearly lowercase f. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel outline/glow, no black rectangle, no surrounding scene, no extra letters or words, no watermark."
   },
   {
-    "id": "10-d-b",
-    "prompt": "Use case: stylized-concept. Create ONE inventive textile lettering asset for a portfolio: an irregular cream linen luggage tag with a navy appliqued lowercase d and a tiny coral bird, blue stitched border and short red striped webbing loop; layered linen label. Exact key text is lowercase \"d\", clearly readable. Confine medium to hangtags, sewing, embroidery, fabric collage and textile details. Distinct authentic textile character, confident graphic composition, imaginative collectible design rather than a generic 3D font. Entire object and short hanging loops fully visible within 12% safe margins, mostly front view, minimal perspective. Transparent alpha background outside the object, no surrounding cloth backdrop, no floor, no full packaging, no watermarks, brand names or other text. Rich but controlled tactile detail, clean edges, strong small-size readability. Square image.",
-    "letter": "d",
+    "id": "09-f-b",
+    "position": 9,
+    "letter": "f",
     "variant": "b",
+    "label": "白粉数字回声 f",
+    "file": "assets/09-f-b.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase f, position 09 variant B. Flat off-white 7-by-9 bitmap f with a hot-pink digital echo offset by two pixels and a tiny cyan sparkle. Minimal retro-computer glyph, readable. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel outline/glow, no black rectangle, no surrounding scene, no extra letters or words, no watermark."
+  },
+  {
+    "id": "10-i-a",
     "position": 10,
-    "label": "小鸟行李布标",
-    "file": "assets/10-d-b.webp"
+    "letter": "i",
+    "variant": "a",
+    "label": "珊瑚立方点 i",
+    "file": "assets/10-i-a.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase i, position 10 variant A. A coral voxel lowercase i with a separate pale-yellow cube dot, cobalt shadow blocks and strong spacing between dot and stem. Do not make an exclamation mark; clearly lowercase i. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel outline/glow, no black rectangle, no surrounding scene, no extra letters or words, no watermark."
+  },
+  {
+    "id": "10-i-b",
+    "position": 10,
+    "letter": "i",
+    "variant": "b",
+    "label": "白蓝位图 i",
+    "file": "assets/10-i-b.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase i, position 10 variant B in Lynn‘s profile. Flat off-white 5-by-9 bitmap i with a separate cobalt square dot, two tiny magenta scanline fragments beside the stem. Do not make an exclamation mark; preserve clear lowercase i proportions. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel outline/glow, no black rectangle, no surrounding scene, no extra letters or words, no watermark."
+  },
+  {
+    "id": "11-l-a",
+    "position": 11,
+    "letter": "l",
+    "variant": "a",
+    "label": "荧光体素 l",
+    "file": "assets/11-l-a.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase l, position 11 variant A. A chartreuse tall voxel lowercase l bending into a short foot, deep navy block shadows and one pale-blue highlight tile near the top. Front-facing, simple, distinctly lowercase l. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel outline/glow, no black rectangle, no surrounding scene, no extra letters or words, no watermark."
+  },
+  {
+    "id": "11-l-b",
+    "position": 11,
+    "letter": "l",
+    "variant": "b",
+    "label": "冰蓝珊瑚点阵 l",
+    "file": "assets/11-l-b.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase l, position 11 variant B. Flat ice-blue bitmap lowercase l built from a narrow column and short base, with coral dither pixels fading off the outer edge. No frame; readable at tiny size. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel outline/glow, no black rectangle, no surrounding scene, no extra letters or words, no watermark."
+  },
+  {
+    "id": "12-e-a",
+    "position": 12,
+    "letter": "e",
+    "variant": "a",
+    "label": "黄色终端 e",
+    "file": "assets/12-e-a.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase e, position 12 variant A. A pale-yellow chunky voxel e resembling a tiny three-bar computer terminal glyph, cobalt depth blocks and one coral cursor tile inside the counter. Front-facing and clearly lowercase e. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel outline/glow, no black rectangle, no surrounding scene, no extra letters or words, no watermark."
+  },
+  {
+    "id": "12-e-b",
+    "position": 12,
+    "letter": "e",
+    "variant": "b",
+    "label": "粉蓝棋盘格 e",
+    "file": "assets/12-e-b.webp",
+    "prompt": "Use case: stylized-concept. Use the three attached images only as visual references: black grain/cosmic restraint, chunky voxel pixel objects, and early-computer bitmap typography. Create exactly ONE standalone interactive portfolio title glyph: exact lowercase e, position 12 variant B. Flat hot-pink early-computer bitmap e with a cobalt checkerboard offset shadow and one white sparkle pixel. Crisp, minimal, unmistakable lowercase e. Genuinely transparent alpha background, complete centered silhouette, 12% safe margins, hard square pixels, thin soft-white pixel outline/glow, no black rectangle, no surrounding scene, no extra letters or words, no watermark."
   }
 ]

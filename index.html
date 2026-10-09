@@ -1,5 +1,90 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Text → Image Letters — 通用交互模板</title><meta name="description" content="通用文字变图片作品集模板，可按自己的标题生成不同风格的字母素材。"><link rel="stylesheet" href="style.css"></head><body>
-<video id="background-video" muted loop playsinline aria-hidden="true"></video><div class="video-shade" aria-hidden="true"></div>
-<header class="editorial-top"><div class="focus-block"><span class="small-label">Exploring:</span><p>Visual storytelling<br>Unexpected forms<br>Playful interactions<br>Everyday imagination</p></div><div class="about-block"><h2>About this world</h2><p>把想法变成看得见的世界。<br>在图像、材质与动态之间，<br>寻找意料之外的表达。</p></div><div class="note-block"><h2>A little invitation</h2><p>Stay curious. Look closer.<br>移动鼠标，遇见另一种可能。<br>Nothing here stays ordinary.</p></div></header>
-<main class="editorial-hero"><h1 aria-label="boknows word"><span id="words" class="words" aria-hidden="true"></span></h1><span class="floating-tag tag-one">Curiosity</span><span class="floating-tag tag-two">Happy accidents</span><span class="floating-tag tag-three">Make believe</span></main>
-<footer class="editorial-bottom"><div class="bottom-left"><p class="folio-note">PERSONAL UNIVERSE · VOL. 001</p><div class="controls"><span class="home-pill">Home</span><button id="upload-video" type="button">上传背景视频</button><button id="remove-video" type="button" hidden>移除视频</button><input id="video-file" type="file" accept="video/*" hidden><button id="replay" disabled>↻ &nbsp; 重播开场</button><button id="pause" disabled aria-pressed="false">暂停自动</button></div></div><span class="bottom-middle">IMAGINE / MAKE / PLAY</span><div class="bottom-right"><time id="local-clock" aria-label="本地时间">--:--</time><span>YOUR LOCAL TIME</span></div></footer><p id="status" class="hint" role="status">正在准备字母图片…</p><script src="config.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050507">
+  <title>Lynn's profile — Pixel portfolio</title>
+  <meta name="description" content="Lynn's profile — a dark, grainy pixel-art portfolio with interactive letterforms.">
+  <link rel="stylesheet" href="style.css?v=20261008-1">
+</head>
+<body>
+  <div class="cosmos" aria-hidden="true">
+    <svg class="orbit-map orbit-a" viewBox="0 0 760 440" focusable="false">
+      <g transform="rotate(-9 380 220)">
+        <ellipse class="orbit-line orbit-line-outer" cx="380" cy="220" rx="342" ry="160" pathLength="100"></ellipse>
+        <ellipse class="orbit-line orbit-line-mid" cx="380" cy="220" rx="296" ry="123" pathLength="100"></ellipse>
+        <ellipse class="orbit-line orbit-line-inner" cx="380" cy="220" rx="246" ry="86" pathLength="100"></ellipse>
+        <path class="orbit-line orbit-crossing" d="M88 334 C214 76 514 48 690 330" pathLength="100"></path>
+        <g transform="translate(380 220) scale(1 .468)">
+          <g class="orbit-runner">
+            <circle class="orbit-particle particle-blue" cx="342" cy="0" r="5"></circle>
+            <circle class="orbit-particle particle-fade" cx="333" cy="-10" r="2.4"></circle>
+            <circle class="orbit-particle particle-faint" cx="323" cy="-16" r="1.35"></circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="19s" begin="-4s" repeatCount="indefinite"></animateTransform>
+          </g>
+        </g>
+        <g transform="translate(380 220) scale(1 .35)">
+          <g class="orbit-runner">
+            <circle class="orbit-particle particle-white" cx="246" cy="0" r="4.2"></circle>
+            <circle class="orbit-particle particle-faint" cx="237" cy="-9" r="1.7"></circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" begin="-8s" repeatCount="indefinite"></animateTransform>
+          </g>
+        </g>
+      </g>
+    </svg>
+    <svg class="orbit-map orbit-b" viewBox="0 0 720 420" focusable="false">
+      <g transform="rotate(13 360 210)">
+        <ellipse class="orbit-line orbit-line-outer" cx="360" cy="210" rx="326" ry="142" pathLength="100"></ellipse>
+        <ellipse class="orbit-line orbit-line-mid" cx="360" cy="210" rx="274" ry="108" pathLength="100"></ellipse>
+        <ellipse class="orbit-line orbit-line-inner" cx="360" cy="210" rx="220" ry="73" pathLength="100"></ellipse>
+        <path class="orbit-line orbit-crossing" d="M48 266 C190 18 516 44 686 302" pathLength="100"></path>
+        <g transform="translate(360 210) scale(1 .436)">
+          <g class="orbit-runner">
+            <circle class="orbit-particle particle-yellow" cx="326" cy="0" r="5"></circle>
+            <circle class="orbit-particle particle-fade" cx="316" cy="-10" r="2.4"></circle>
+            <circle class="orbit-particle particle-faint" cx="306" cy="-16" r="1.35"></circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" begin="-13s" repeatCount="indefinite"></animateTransform>
+          </g>
+        </g>
+        <g transform="translate(360 210) scale(1 .332)">
+          <g class="orbit-runner">
+            <circle class="orbit-particle particle-pink" cx="220" cy="0" r="4"></circle>
+            <circle class="orbit-particle particle-faint" cx="211" cy="-8" r="1.7"></circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" begin="-2s" repeatCount="indefinite"></animateTransform>
+          </g>
+        </g>
+      </g>
+    </svg>
+    <img class="planet planet-a" src="assets/planet-earth-pixel.webp" alt="" decoding="async" draggable="false">
+    <img class="planet planet-b" src="assets/planet-moon-pixel.webp" alt="" decoding="async" draggable="false">
+    <img class="planet planet-c" src="assets/planet-mars-pixel.webp" alt="" decoding="async" draggable="false">
+    <span class="pixel-star star-a"></span>
+    <span class="pixel-star star-b"></span>
+    <span class="pixel-star star-c"></span>
+  </div>
+
+  <main class="hero">
+    <div class="title-stack">
+      <h1 aria-label="Lynn's profile">
+        <span id="words" class="words" aria-hidden="true"></span>
+      </h1>
+      <a class="work-link" href="work.html">Click to go to the work page</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span class="signal"><i></i> LYNN / 2026</span>
+    <div class="controls" aria-label="Animation controls">
+      <button id="replay" type="button" disabled>Replay pixels</button>
+      <button id="pause" type="button" disabled aria-pressed="false">Pause drift</button>
+    </div>
+    <time id="local-clock" aria-label="Local time">--:--</time>
+  </footer>
+
+  <p id="status" class="sr-only" role="status">Loading pixel letters…</p>
+  <script src="cosmos.js?v=20261008-1"></script>
+  <script src="config.js"></script>
+  <script src="app.js?v=20261007-3"></script>
+</body>
+</html>

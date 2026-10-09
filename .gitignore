@@ -3,3 +3,6 @@ node_modules/
 .env
 .env.*
 __pycache__/
+
+# Private report source; keep it out of the public repository.
+assets/work-data-operations-2025.pdf

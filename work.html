@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050507">
+  <title>Work — Lynn's profile</title>
+  <meta name="description" content="Explore About ME, MY Work, and Discovering through an interactive Earth-path portfolio map.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20261009-35">
+</head>
+<body class="work-page">
+  <div class="cosmos" aria-hidden="true">
+    <svg class="orbit-map orbit-a" viewBox="0 0 760 440" focusable="false">
+      <g transform="rotate(-9 380 220)">
+        <ellipse class="orbit-line orbit-line-outer" cx="380" cy="220" rx="342" ry="160" pathLength="100"></ellipse>
+        <ellipse class="orbit-line orbit-line-mid" cx="380" cy="220" rx="296" ry="123" pathLength="100"></ellipse>
+        <ellipse class="orbit-line orbit-line-inner" cx="380" cy="220" rx="246" ry="86" pathLength="100"></ellipse>
+        <path class="orbit-line orbit-crossing" d="M88 334 C214 76 514 48 690 330" pathLength="100"></path>
+        <g transform="translate(380 220) scale(1 .468)">
+          <g class="orbit-runner">
+            <circle class="orbit-particle particle-blue" cx="342" cy="0" r="5"></circle>
+            <circle class="orbit-particle particle-fade" cx="333" cy="-10" r="2.4"></circle>
+            <circle class="orbit-particle particle-faint" cx="323" cy="-16" r="1.35"></circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="19s" begin="-4s" repeatCount="indefinite"></animateTransform>
+          </g>
+        </g>
+        <g transform="translate(380 220) scale(1 .35)">
+          <g class="orbit-runner">
+            <circle class="orbit-particle particle-white" cx="246" cy="0" r="4.2"></circle>
+            <circle class="orbit-particle particle-faint" cx="237" cy="-9" r="1.7"></circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" begin="-8s" repeatCount="indefinite"></animateTransform>
+          </g>
+        </g>
+      </g>
+    </svg>
+    <svg class="orbit-map orbit-b" viewBox="0 0 720 420" focusable="false">
+      <g transform="rotate(13 360 210)">
+        <ellipse class="orbit-line orbit-line-outer" cx="360" cy="210" rx="326" ry="142" pathLength="100"></ellipse>
+        <ellipse class="orbit-line orbit-line-mid" cx="360" cy="210" rx="274" ry="108" pathLength="100"></ellipse>
+        <ellipse class="orbit-line orbit-line-inner" cx="360" cy="210" rx="220" ry="73" pathLength="100"></ellipse>
+        <path class="orbit-line orbit-crossing" d="M48 266 C190 18 516 44 686 302" pathLength="100"></path>
+        <g transform="translate(360 210) scale(1 .436)">
+          <g class="orbit-runner">
+            <circle class="orbit-particle particle-yellow" cx="326" cy="0" r="5"></circle>
+            <circle class="orbit-particle particle-fade" cx="316" cy="-10" r="2.4"></circle>
+            <circle class="orbit-particle particle-faint" cx="306" cy="-16" r="1.35"></circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" begin="-13s" repeatCount="indefinite"></animateTransform>
+          </g>
+        </g>
+        <g transform="translate(360 210) scale(1 .332)">
+          <g class="orbit-runner">
+            <circle class="orbit-particle particle-pink" cx="220" cy="0" r="4"></circle>
+            <circle class="orbit-particle particle-faint" cx="211" cy="-8" r="1.7"></circle>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" begin="-2s" repeatCount="indefinite"></animateTransform>
+          </g>
+        </g>
+      </g>
+    </svg>
+    <img class="planet planet-a" src="assets/planet-earth-pixel.webp" alt="" decoding="async" draggable="false">
+    <img class="planet planet-b" src="assets/planet-moon-pixel.webp" alt="" decoding="async" draggable="false">
+    <img class="planet planet-c" src="assets/planet-mars-pixel.webp" alt="" decoding="async" draggable="false">
+    <span class="pixel-star star-a"></span>
+    <span class="pixel-star star-b"></span>
+    <span class="pixel-star star-c"></span>
+  </div>
+
+  <main id="workExperience" class="work-experience">
+    <section class="path-column" aria-label="Work page navigation">
+      <a class="work-home-link" href="index.html">← Lynn's profile</a>
+
+      <div class="earth-route-stage">
+        <svg class="earth-route-map" viewBox="0 0 520 760" role="img" aria-labelledby="earthRouteTitle earthRouteDesc">
+          <title id="earthRouteTitle">The Earth's path in space</title>
+          <desc id="earthRouteDesc">A stylized path inspired by a 1923 astronomical diagram, connecting two June positions and one December position.</desc>
+          <defs>
+            <marker id="routeArrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M0 0 L8 4 L0 8 Z"></path>
+            </marker>
+            <radialGradient id="routeEarthBlue" cx="34%" cy="29%" r="74%">
+              <stop offset="0" stop-color="#62c4ff"></stop>
+              <stop offset=".32" stop-color="#168fff"></stop>
+              <stop offset=".7" stop-color="#0668e8"></stop>
+              <stop offset="1" stop-color="#033c91"></stop>
+            </radialGradient>
+            <radialGradient id="routeEarthShade" cx="40%" cy="37%" r="68%">
+              <stop offset=".48" stop-color="#001c52" stop-opacity="0"></stop>
+              <stop offset="1" stop-color="#001332" stop-opacity=".58"></stop>
+            </radialGradient>
+            <clipPath id="routeEarthClip">
+              <circle r="28"></circle>
+            </clipPath>
+          </defs>
+
+          <path class="route-axis" d="M120 730 L390 30"></path>
+          <path class="route-direction route-direction-a" d="M150 652 L187 556"></path>
+          <path class="route-direction route-direction-b" d="M237 425 L274 329"></path>
+          <path class="route-direction route-direction-c" d="M324 198 L361 102"></path>
+
+          <path id="earthRoutePath" class="earth-route-line" d="M457 120 C476 212 164 274 156 380 C148 486 278 554 255 640"></path>
+
+          <g class="season-orbit season-orbit-top">
+            <ellipse cx="357" cy="120" rx="100" ry="33" pathLength="100"></ellipse>
+            <circle class="season-point" cx="457" cy="120" r="4"></circle>
+            <g class="route-sun" transform="translate(357 120)">
+              <circle r="8"></circle><path d="M-14 0 H14 M0 -14 V14 M-10 -10 L10 10 M10 -10 L-10 10"></path>
+            </g>
+          </g>
+          <g class="season-orbit season-orbit-middle">
+            <ellipse cx="256" cy="380" rx="100" ry="33" pathLength="100"></ellipse>
+            <circle class="season-point" cx="156" cy="380" r="4"></circle>
+            <g class="route-sun" transform="translate(256 380)">
+              <circle r="8"></circle><path d="M-14 0 H14 M0 -14 V14 M-10 -10 L10 10 M10 -10 L-10 10"></path>
+            </g>
+          </g>
+          <g class="season-orbit season-orbit-bottom">
+            <ellipse cx="155" cy="640" rx="100" ry="33" pathLength="100"></ellipse>
+            <circle class="season-point" cx="255" cy="640" r="4"></circle>
+            <g class="route-sun" transform="translate(155 640)">
+              <circle r="8"></circle><path d="M-14 0 H14 M0 -14 V14 M-10 -10 L10 10 M10 -10 L-10 10"></path>
+            </g>
+          </g>
+
+          <g id="routeEarthMarker" class="route-earth-marker" transform="translate(457 120)">
+            <g class="route-earth-art">
+              <circle class="route-earth-halo" r="37"></circle>
+              <circle class="route-earth-body" r="28"></circle>
+              <g class="route-earth-grid" clip-path="url(#routeEarthClip)">
+                <ellipse rx="11" ry="28"></ellipse>
+                <ellipse rx="21" ry="28"></ellipse>
+                <ellipse rx="28" ry="10"></ellipse>
+                <ellipse rx="28" ry="20"></ellipse>
+                <path d="M-28 0 H28 M0 -28 V28"></path>
+              </g>
+              <circle class="route-earth-shade" r="28"></circle>
+              <circle class="route-earth-glint" cx="-9" cy="-10" r="8"></circle>
+              <path class="route-earth-reticle" d="M-17 -17 H-8 M-17 -17 V-8 M17 17 H8 M17 17 V8"></path>
+              <circle class="route-earth-ring" r="36"></circle>
+            </g>
+          </g>
+        </svg>
+
+        <button class="route-label route-about" type="button" data-section="about" data-title="About ME" data-note="Approach problems through humanities research." data-progress="0" aria-pressed="false">
+          <strong>About ME</strong>
+        </button>
+        <button class="route-label route-work" type="button" data-section="work" data-title="MY Work" data-note="Organize information through content and visuals." data-progress="0.592" aria-pressed="false">
+          <strong>MY Work</strong>
+        </button>
+        <button class="route-label route-discover" type="button" data-section="discover" data-title="DISCOVERING_" data-note="PERSONAL LAB / WORK IN PROGRESS / v0.1" data-progress="1" aria-pressed="false">
+          <strong>Discovering</strong>
+        </button>
+      </div>
+
+      <p class="route-hint">HOVER TO TRACE · CLICK TO OPEN</p>
+    </section>
+
+    <section class="work-display" aria-label="Selected section display" aria-hidden="true">
+      <div class="panel-page">
+        <div class="panel-heading">
+          <h1 id="panelTitle" class="panel-title">About ME</h1>
+          <p id="panelNote" class="panel-note">Approach problems through humanities research.</p>
+        </div>
+        <div id="aboutContent" class="about-content">
+          <section class="about-screen about-profile" aria-labelledby="aboutProfileTitle">
+            <header class="about-screen-meta">
+              <span>01 / 04</span>
+              <span>PROFILE</span>
+            </header>
+            <div class="about-grid">
+              <div class="about-lead">
+                <p class="about-kicker">HI, I’M 白桦。</p>
+                <h2 id="aboutProfileTitle">以人文研究理解信息，<br>以内容与视觉组织表达，<br>也用产品原型探索新的可能。</h2>
+                <p class="about-copy">我关注媒介、互联网产品与社会文化议题，喜欢从复杂信息中寻找结构，并把想法转化为可以被理解、传播或使用的成果。</p>
+              </div>
+              <div class="about-facts" aria-label="Profile facts">
+                <div class="about-fact">
+                  <span>EDUCATION</span>
+                  <strong>清华大学 · 日新书院</strong>
+                </div>
+                <div class="about-fact">
+                  <span>MAJOR</span>
+                  <strong>汉语言文学</strong>
+                </div>
+                <div class="about-fact">
+                  <span>RESEARCH INTEREST</span>
+                  <strong>媒介研究与批评</strong>
+                </div>
+                <div class="about-fact">
+                  <span>ACADEMIC RECORD</span>
+                  <strong>GPA 3.7 / 4.0</strong>
+                </div>
+                <div class="about-fact">
+                  <span>HONORS</span>
+                  <strong>综合优秀奖学金<br>社会工作优秀奖学金</strong>
+                </div>
+              </div>
+            </div>
+            <section class="about-resume" aria-labelledby="resumeDownloadTitle">
+              <div class="about-resume-copy">
+                <p class="about-kicker">RESUME / PDF</p>
+                <h3 id="resumeDownloadTitle">Tap and Download<br>My Resume</h3>
+                <p id="resumeStatus" class="resume-status" aria-live="polite">DEFAULT VERSION / READY TO DOWNLOAD</p>
+                <label class="resume-upload" for="resumeUpload">↻ UPLOAD UPDATED VERSION</label>
+                <input id="resumeUpload" hidden type="file" accept="application/pdf,.pdf">
+              </div>
+              <a id="resumeDownload" class="resume-envelope-button" href="assets/baihua-resume.pdf" aria-describedby="resumeStatus">
+                <span class="sr-only">Download Baihua's resume PDF</span>
+                <img class="resume-envelope-image resume-envelope-closed" src="assets/resume-envelope-closed.png" alt="" decoding="async" draggable="false">
+                <img class="resume-envelope-image resume-envelope-open" src="assets/resume-envelope-open.png" alt="" decoding="async" draggable="false">
+              </a>
+            </section>
+          </section>
+
+          <section class="about-screen about-capabilities" aria-labelledby="aboutCapabilitiesTitle">
+            <header class="about-screen-meta">
+              <span>02 / 04</span>
+              <span>CAPABILITIES</span>
+            </header>
+            <div class="about-grid">
+              <div class="about-lead">
+                <p class="about-kicker">MY CAPABILITIES</p>
+                <h2 id="aboutCapabilitiesTitle">从复杂信息中寻找结构，再把它转化为清晰的内容、视觉表达与行动方案。</h2>
+              </div>
+              <div class="about-capability-list">
+                <article class="about-capability">
+                  <span class="about-number">01</span>
+                  <div>
+                    <h3>RESEARCH &amp; ANALYSIS</h3>
+                    <p>媒介与平台研究 · 资料检索与信息整理 · 用户及竞品分析 · 问卷调查与数据处理</p>
+                  </div>
+                </article>
+                <article class="about-capability">
+                  <span class="about-number">02</span>
+                  <div>
+                    <h3>CONTENT &amp; VISUAL</h3>
+                    <p>文稿撰写与内容策划 · 公众号编辑与排版 · 海报及活动物料设计 · 摄影与视觉叙事</p>
+                  </div>
+                </article>
+                <article class="about-capability">
+                  <span class="about-number">03</span>
+                  <div>
+                    <h3>OPERATIONS &amp; PRODUCT</h3>
+                    <p>活动及账号运营 · 项目协调与现场执行 · 商业数据分析 · AI 辅助产品原型</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="about-screen about-experience" aria-labelledby="aboutExperienceTitle">
+            <header class="about-screen-meta">
+              <span>03 / 04</span>
+              <span>EXPERIENCE</span>
+            </header>
+            <div class="about-grid">
+              <div class="about-lead">
+                <p class="about-kicker">FROM RESEARCH TO DELIVERY</p>
+                <h2 id="aboutExperienceTitle">研究、内容与执行，不是彼此分开的能力。</h2>
+                <p class="about-copy">我习惯先厘清问题，再建立信息结构，并在真实协作与交付中不断校准答案。</p>
+              </div>
+              <div class="about-experience-groups">
+                <section class="about-experience-group" aria-labelledby="internshipGroupTitle">
+                  <header class="about-experience-group-heading">
+                    <span>01</span>
+                    <h3 id="internshipGroupTitle">实习经历</h3>
+                  </header>
+                  <div class="about-timeline">
+                    <article class="about-timeline-item">
+                      <time>2025.06—2025.08</time>
+                      <h4>深圳开时科技有限公司</h4>
+                      <p class="about-role">商户服务助理</p>
+                      <p>协助处理 B2B / B2C 商户与产品线数据，独立完成面向关键客户的数据分析报告，并梳理东南亚电商平台与品类趋势。</p>
+                    </article>
+                  </div>
+                </section>
+                <section class="about-experience-group" aria-labelledby="studentWorkGroupTitle">
+                  <header class="about-experience-group-heading">
+                    <span>02</span>
+                    <h3 id="studentWorkGroupTitle">学生工作</h3>
+                  </header>
+                  <div class="about-timeline">
+                    <article class="about-timeline-item">
+                      <time>2025.01—至今</time>
+                      <h4>清华大学日新书院科协</h4>
+                      <p class="about-role">学术资讯部部长</p>
+                      <p>组织书院学术交流活动，完成学术资讯的整理、编辑、排版与发布。</p>
+                    </article>
+                    <article class="about-timeline-item">
+                      <time>2023.09—2025.01</time>
+                      <h4>清华大学日新书院学生会</h4>
+                      <p class="about-role">文艺部骨干</p>
+                      <p>参与校园活动策划与执行，负责前期方案、宣传物料、账号内容和现场跟进。</p>
+                    </article>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
+
+          <section class="about-screen about-approach" aria-labelledby="aboutApproachTitle">
+            <header class="about-screen-meta">
+              <span>04 / 04</span>
+              <span>APPROACH</span>
+            </header>
+            <div class="about-grid">
+              <div class="about-lead">
+                <p class="about-kicker">MY APPROACH</p>
+                <h2 id="aboutApproachTitle">保持好奇，建立结构，把想法做出来。</h2>
+                <p class="about-copy">我关心的不只是一个想法是什么，也关心它如何成为真实的体验。</p>
+              </div>
+              <ol class="about-process">
+                <li>
+                  <span class="about-number">01</span>
+                  <div><h3>OBSERVE / 观察</h3><p>持续关注互联网产品、媒介生态、消费趋势与社会文化议题。</p></div>
+                </li>
+                <li>
+                  <span class="about-number">02</span>
+                  <div><h3>STRUCTURE / 组织</h3><p>用研究、写作、数据与视觉表达整理信息，找到可以沟通的结构。</p></div>
+                </li>
+                <li>
+                  <span class="about-number">03</span>
+                  <div><h3>BUILD / 实现</h3><p>通过项目执行与快速原型，把抽象判断转化为可被使用和验证的成果。</p></div>
+                </li>
+              </ol>
+            </div>
+            <aside class="about-prototype" aria-label="Prototype example">
+              <div>
+                <span>PROTOTYPE EXAMPLE</span>
+                <h3>Groovebook</h3>
+              </div>
+              <p>一个面向舞蹈练习的离线产品原型，将动作库、组合生成、练习计时和进度记录组织在同一套使用流程中。</p>
+              <div class="about-tags" aria-hidden="true"><span>CONTENT MODEL</span><span>INTERACTION FLOW</span><span>LOCAL DATA</span></div>
+            </aside>
+          </section>
+        </div>
+
+        <div id="myWorkContent" class="my-work-content">
+          <section class="work-index" aria-labelledby="workIndexTitle">
+            <header class="work-index-intro">
+              <div>
+                <p class="work-kicker">WORK INDEX / 08 PROJECTS</p>
+                <h2 id="workIndexTitle">从信息与问题出发，让想法进入真实的传播场景。</h2>
+              </div>
+              <div class="work-index-copy">
+                <p>这里收录了我在校园活动、内容运营、视觉设计和商业分析中完成的部分项目。</p>
+                <p>我关心的不只是最终呈现，也关心信息如何被理解、项目如何被推进，以及作品如何进入真实的传播场景。</p>
+              </div>
+            </header>
+
+            <nav class="work-filters" aria-label="Filter projects">
+              <button class="work-filter is-active" type="button" data-work-filter="all" aria-pressed="true">ALL WORK</button>
+              <button class="work-filter" type="button" data-work-filter="design" aria-pressed="false">DESIGN &amp; VISUAL</button>
+              <button class="work-filter" type="button" data-work-filter="operations" aria-pressed="false">CONTENT &amp; OPERATIONS</button>
+            </nav>
+
+            <div class="work-project-grid">
+              <button class="work-project-card is-featured" type="button" data-work-category="design" data-work-project="anthology" aria-controls="workDetailAnthology">
+                <span class="work-card-media work-card-media-wide work-card-media-contain">
+                  <img src="assets/work-selected-works-cover.png" alt="清华大学日新书院学生代表作自选集封面、书脊与封底展开图" loading="lazy" decoding="async">
+                </span>
+                <span class="work-card-copy">
+                  <span class="work-card-meta"><span>01 / DESIGN</span><span>2025</span></span>
+                  <strong>清华大学日新书院学生代表作自选集封面设计</strong>
+                  <span class="work-card-description">以竹、书法与水墨元素建立书院学生作品集的整体视觉形象。</span>
+                  <span class="work-card-arrow" aria-hidden="true">↗</span>
+                </span>
+              </button>
+
+              <button class="work-project-card" type="button" data-work-category="design" data-work-project="screening" aria-controls="workDetailScreening">
+                <span class="work-card-media work-card-media-poster work-card-media-contain">
+                  <img src="assets/work-film-screening-poster.png" alt="中文系人文光影经典学术放映系列海报" loading="lazy" decoding="async">
+                </span>
+                <span class="work-card-copy">
+                  <span class="work-card-meta"><span>02 / DESIGN</span><span>2024—至今</span></span>
+                  <strong>学术海报制作</strong>
+                  <span class="work-card-description">围绕放映、沙龙等学术活动建立主视觉与信息层级，兼顾主题表达和传播效率。</span>
+                  <span class="work-card-arrow" aria-hidden="true">↗</span>
+                </span>
+              </button>
+
+              <button class="work-project-card" type="button" data-work-category="design" data-work-project="suhui" aria-controls="workDetailSuhui">
+                <span class="work-card-media work-card-media-split">
+                  <img src="assets/work-suhui-invitation-front.jpg" alt="溯洄五系联合毕业晚会邀请函正面" loading="lazy" decoding="async">
+                  <img src="assets/work-suhui-invitation-back.jpg" alt="溯洄五系联合毕业晚会邀请函背面" loading="lazy" decoding="async">
+                </span>
+                <span class="work-card-copy">
+                  <span class="work-card-meta"><span>03 / DESIGN</span><span>2024</span></span>
+                  <strong>“溯·洄”五系联合毕业晚会活动视觉</strong>
+                  <span class="work-card-description">将晚会主题延展为邀请函与签名板，连接线上邀请与线下现场。</span>
+                  <span class="work-card-arrow" aria-hidden="true">↗</span>
+                </span>
+              </button>
+
+              <button class="work-project-card" type="button" data-work-category="design" data-work-project="five-deer" aria-controls="workDetailFiveDeer">
+                <span class="work-card-media">
+                  <img src="assets/work-five-deer-event.jpg" alt="五相鹿日新书院第三届学生节活动物料现场" loading="lazy" decoding="async">
+                </span>
+                <span class="work-card-copy">
+                  <span class="work-card-meta"><span>04 / DESIGN</span><span>2023</span></span>
+                  <strong>“五相鹿”日新书院第三届学生节系列物料</strong>
+                  <span class="work-card-description">参与宣传视频策划，并完成邀请函、抽奖券和工作证等物料设计。</span>
+                  <span class="work-card-arrow" aria-hidden="true">↗</span>
+                </span>
+              </button>
+
+              <button class="work-project-card is-text-only" type="button" data-work-category="operations" data-work-project="campus-media" aria-controls="workDetailCampusMedia">
+                <span class="work-card-copy">
+                  <span class="work-card-meta"><span>05 / CONTENT &amp; OPERATIONS</span><span>2023—2025</span></span>
+                  <strong>院系与校级账号内容运营</strong>
+                  <span class="work-card-cta">CLICK TO VIEW PROJECT <b aria-hidden="true">→</b></span>
+                </span>
+              </button>
+
+              <button class="work-project-card is-text-only" type="button" data-work-category="operations" data-work-project="academic-events" aria-controls="workDetailAcademicEvents">
+                <span class="work-card-copy">
+                  <span class="work-card-meta"><span>06 / CONTENT &amp; OPERATIONS</span><span>2025—至今</span></span>
+                  <strong>科协学术活动与资讯运营</strong>
+                  <span class="work-card-cta">CLICK TO VIEW PROJECT <b aria-hidden="true">→</b></span>
+                </span>
+              </button>
+
+              <button class="work-project-card is-text-only" type="button" data-work-category="operations" data-work-project="class-media" aria-controls="workDetailClassMedia">
+                <span class="work-card-copy">
+                  <span class="work-card-meta"><span>07 / CONTENT &amp; OPERATIONS</span><span>2023—2024</span></span>
+                  <strong>班级公众号“三叁不息”</strong>
+                  <span class="work-card-cta">CLICK TO VIEW PROJECT <b aria-hidden="true">→</b></span>
+                </span>
+              </button>
+
+              <button class="work-project-card is-text-only" type="button" data-work-category="operations" data-work-project="data-operations" aria-controls="workDetailDataOperations">
+                <span class="work-card-copy">
+                  <span class="work-card-meta"><span>08 / CONTENT &amp; OPERATIONS</span><span>2025</span></span>
+                  <strong>商户数据与产品运营分析</strong>
+                  <span class="work-card-cta">CLICK TO VIEW PROJECT <b aria-hidden="true">→</b></span>
+                </span>
+              </button>
+            </div>
+          </section>
+
+          <div class="work-detail-list">
+            <article id="workDetailAnthology" class="work-detail" data-work-detail="anthology" hidden>
+              <header class="work-detail-heading"><p>01 / DESIGN AND VISUAL STORYTELLING</p><h2>清华大学日新书院学生代表作自选集封面设计</h2></header>
+              <figure class="work-detail-hero work-detail-contain"><img src="assets/work-selected-works-cover.png" alt="学生代表作自选集完整封面展开图"></figure>
+              <div class="work-detail-grid">
+                <dl class="work-detail-info"><div><dt>YEAR</dt><dd>2025</dd></div><div><dt>ROLE</dt><dd>封面、封底与书脊视觉设计</dd></div><div><dt>TYPE</dt><dd>编辑设计 · 校园文化</dd></div><div><dt>OUTPUT</dt><dd>封面 · 书脊 · 封底</dd></div></dl>
+                <div class="work-detail-story"><section><h3>项目背景</h3><p>为书院学生代表作自选集设计完整封面，需要在书院识别、文学气质和作品集的正式感之间建立平衡。</p></section><section><h3>我的工作</h3><p>负责封面、封底与书脊的整体视觉设计，并组织书法、水墨、竹与书院标识等元素之间的关系。</p></section><section><h3>关键决策</h3><p>用浅绿色调、留白和竖向书法文字建立安静的人文气质，同时确保标题与出版信息保持清晰。</p></section></div>
+              </div>
+            </article>
+
+            <article id="workDetailScreening" class="work-detail" data-work-detail="screening" hidden>
+              <header class="work-detail-heading"><p>02 / DESIGN AND VISUAL STORYTELLING</p><h2>学术海报制作</h2></header>
+              <section class="work-poster-gallery" aria-label="学术海报制作代表作品">
+                <header class="work-poster-header">
+                  <div><p>SELECTED POSTERS / 02</p><h3>学术活动海报</h3></div>
+                  <span>DRAG / SWIPE <b aria-hidden="true">↔</b></span>
+                </header>
+                <div class="work-poster-viewport" data-stack-viewport tabindex="0" aria-label="左右拖动浏览两张学术活动海报">
+                  <div class="work-poster-track">
+                    <figure class="work-poster-slide">
+                      <img src="assets/work-film-screening-poster.png" alt="人文光影经典学术放映系列海报" decoding="async">
+                      <figcaption><span>01</span><strong>人文光影经典学术放映系列</strong></figcaption>
+                    </figure>
+                    <figure class="work-poster-slide">
+                      <img src="assets/work-academic-poster-proof-structure.jpg" alt="博约沙龙本科论文写作论证结构活动海报" loading="lazy" decoding="async">
+                      <figcaption><span>02</span><strong>博约沙龙 · 本科论文写作的论证结构</strong></figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <p class="work-poster-help">左右拖动或滑动浏览 · 键盘方向键同样可用</p>
+              </section>
+              <div class="work-detail-grid">
+                <dl class="work-detail-info"><div><dt>YEAR</dt><dd>2024—至今</dd></div><div><dt>ROLE</dt><dd>海报设计 · 信息编排</dd></div><div><dt>TYPE</dt><dd>学术放映 · 学术活动</dd></div><div><dt>OUTPUT</dt><dd>系列海报 · 活动主视觉</dd></div></dl>
+                <div class="work-detail-story"><section><h3>项目背景</h3><p>中文系经典学术放映与书院科协长期培养活动，都需要在有限版面中兼顾主题氛围、嘉宾信息和参与方式。</p></section><section><h3>我的工作</h3><p>根据影片主题、论文写作议题与活动定位完成主视觉构思、文字层级和传播信息编排，并针对不同渠道调整尺寸与阅读顺序。</p></section><section><h3>设计重点</h3><p>为放映项目保留系列识别，为讲座与沙龙建立清晰的信息入口；通过色彩、图形与字号层级区分活动气质，同时保证时间、地点和嘉宾信息快速可读。</p></section></div>
+              </div>
+            </article>
+
+            <article id="workDetailSuhui" class="work-detail" data-work-detail="suhui" hidden>
+              <header class="work-detail-heading"><p>03 / DESIGN AND VISUAL STORYTELLING</p><h2>“溯·洄”五系联合毕业晚会活动视觉</h2></header>
+              <div class="work-detail-image-pair"><figure><img src="assets/work-suhui-invitation-front.jpg" alt="溯洄晚会邀请函正面"></figure><figure><img src="assets/work-suhui-invitation-back.jpg" alt="溯洄晚会邀请函背面"></figure></div>
+              <div class="work-detail-grid">
+                <dl class="work-detail-info"><div><dt>YEAR</dt><dd>2024</dd></div><div><dt>ROLE</dt><dd>邀请函 · 签名板设计</dd></div><div><dt>TYPE</dt><dd>活动视觉 · 联合晚会</dd></div><div><dt>OUTPUT</dt><dd>邀请函正反面 · 现场物料</dd></div></dl>
+                <div class="work-detail-story"><section><h3>项目背景</h3><p>五系联合毕业晚会需要一套能够承载“溯·洄”主题、同时适配线上邀请和线下现场的视觉语言。</p></section><section><h3>我的工作</h3><p>负责邀请函与签名板设计，将主题意象、活动信息和现场使用需求组织为一致的视觉系统。</p></section><section><h3>设计重点</h3><p>以潮汐、云层和渐变色建立流动感，并通过边框与居中信息结构保证物料在不同尺寸下保持完整。</p></section></div>
+              </div>
+            </article>
+
+            <article id="workDetailFiveDeer" class="work-detail" data-work-detail="five-deer" hidden>
+              <header class="work-detail-heading"><p>04 / DESIGN AND VISUAL STORYTELLING</p><h2>“五相鹿”日新书院第三届学生节系列物料</h2></header>
+              <figure class="work-detail-hero"><img src="assets/work-five-deer-event.jpg" alt="五相鹿学生节邀请函与现场物料"></figure>
+              <div class="work-detail-grid">
+                <dl class="work-detail-info"><div><dt>YEAR</dt><dd>2023</dd></div><div><dt>ROLE</dt><dd>视觉物料设计 · 宣传视频策划</dd></div><div><dt>TYPE</dt><dd>校园活动 · 系列传播</dd></div><div><dt>OUTPUT</dt><dd>邀请函 · 抽奖券 · 工作证</dd></div></dl>
+                <div class="work-detail-story"><section><h3>项目背景</h3><p>学生节需要在宣传阶段和活动现场保持统一识别，同时让多种尺寸和用途的物料形成系列感。</p></section><section><h3>我的工作</h3><p>参与宣传视频策划，并完成邀请函、抽奖券和工作证等系列物料设计。</p></section><section><h3>最终呈现</h3><p>围绕红金主色、鹿形象与传统纹样延展视觉元素，使线上传播和线下使用保持同一语气。</p></section></div>
+              </div>
+              <a class="work-original-link" href="https://mp.weixin.qq.com/s/38VsoZdZVDQSb0SlDr4YSQ" target="_blank" rel="noopener">VIEW ORIGINAL PROMOTION ↗</a>
+            </article>
+
+            <article id="workDetailCampusMedia" class="work-detail" data-work-detail="campus-media" hidden>
+              <header class="work-detail-heading"><p>05 / CONTENT AND OPERATIONS</p><h2>院系与校级账号内容运营</h2></header>
+              <section class="work-stack-gallery" data-stack-gallery aria-label="院系与校级账号代表内容">
+                <header class="work-stack-header">
+                  <div><p>SELECTED POSTS / 04</p><h3>代表内容</h3></div>
+                  <span>PRESS + DRAG <b aria-hidden="true">↔</b></span>
+                </header>
+                <div class="work-stack-viewport" data-stack-viewport tabindex="0" aria-label="按住并左右拖动浏览四张代表内容图片">
+                  <div class="work-stack-track">
+                    <article class="work-stack-slide">
+                      <img class="work-stack-image" src="assets/work-ops-05-01-sparkling.jpg" alt="花火 Sparkling 栏目主视觉" loading="lazy" decoding="async">
+                      <a href="https://mp.weixin.qq.com/s/ZuThr3Nhp9TqsdOcijdOww" target="_blank" rel="noopener"><span>01</span><strong>花火 sparkling</strong><b>VIEW ORIGINAL ↗</b></a>
+                    </article>
+                    <article class="work-stack-slide">
+                      <img class="work-stack-image" src="assets/work-ops-05-02-xingyue.jpg" alt="星月清寻调研中的土耳其摊主合影" loading="lazy" decoding="async">
+                      <a href="https://mp.weixin.qq.com/s/RLYDnjG4Z4W1W3B0D8LlEQ" target="_blank" rel="noopener"><span>02</span><strong>星月清寻</strong><b>VIEW ORIGINAL ↗</b></a>
+                    </article>
+                    <article class="work-stack-slide">
+                      <img class="work-stack-image" src="assets/work-ops-05-03-campus-bgm.jpg" alt="清华园里自带 BGM 栏目内容截图" loading="lazy" decoding="async">
+                      <a href="https://mp.weixin.qq.com/s/7NFnAGNNL0Tpx5myrSPs9w" target="_blank" rel="noopener"><span>03</span><strong>清华园里自带 BGM？</strong><b>VIEW ORIGINAL ↗</b></a>
+                    </article>
+                    <article class="work-stack-slide">
+                      <img class="work-stack-image" src="assets/work-ops-05-04-qinghai-football.jpg" alt="青海大学女足赴清交流活动预告" loading="lazy" decoding="async">
+                      <a href="https://mp.weixin.qq.com/s/Z1uBwS66RtwMdkS8PpyqmQ" target="_blank" rel="noopener"><span>04</span><strong>青海大学女足赴清交流</strong><b>VIEW ORIGINAL ↗</b></a>
+                    </article>
+                  </div>
+                </div>
+                <p class="work-stack-help">按住图片左右拖动浏览 · 点击每张图片下方标题跳转原文</p>
+              </section>
+              <div class="work-detail-grid">
+                <dl class="work-detail-info"><div><dt>YEAR</dt><dd>2023—2025</dd></div><div><dt>ROLE</dt><dd>选题 · 摄影 · 美工 · 排版</dd></div><div><dt>TYPE</dt><dd>校园账号 · 内容运营</dd></div><div><dt>OUTPUT</dt><dd>专栏 · 调研纪实 · 活动预告</dd></div></dl>
+                <div class="work-detail-story"><section><h3>项目背景</h3><p>院系及校级账号需要协调信息准确性、视觉风格与发布时间，让校园文化、活动预告和调研纪实进入合适的传播场景。</p></section><section><h3>我的工作</h3><p>根据项目需要参与选题、文稿整理、摄影、美工、排版与发布，并与活动执行人员确认素材和信息。</p></section><section><h3>内容重点</h3><p>活动预告强调信息效率，文化调研强调故事与现场感，生活专栏则保持栏目连续性和亲近感。</p></section></div>
+              </div>
+            </article>
+
+            <article id="workDetailAcademicEvents" class="work-detail" data-work-detail="academic-events" hidden>
+              <header class="work-detail-heading"><p>06 / CONTENT AND OPERATIONS</p><h2>科协学术活动与资讯运营</h2></header>
+              <div class="work-detail-grid">
+                <dl class="work-detail-info"><div><dt>YEAR</dt><dd>2025—至今</dd></div><div><dt>ROLE</dt><dd>活动组织 · 资讯编辑</dd></div><div><dt>TYPE</dt><dd>学术交流 · 内容运营</dd></div><div><dt>OUTPUT</dt><dd>活动流程 · 资讯推送</dd></div></dl>
+                <div class="work-detail-story"><section><h3>项目背景</h3><p>书院学术交流既需要现场组织，也需要通过清晰的资讯让参与者理解主题、流程与参与方式。</p></section><section><h3>我的工作</h3><p>参与活动策划与协调，整理活动信息，并完成相关资讯的编辑、排版与发布。</p></section><section><h3>执行重点</h3><p>先建立时间、人员和素材清单，再根据不同传播节点调整信息密度，并在现场执行中持续校准。</p></section></div>
+              </div>
+            </article>
+
+            <article id="workDetailClassMedia" class="work-detail" data-work-detail="class-media" hidden>
+              <header class="work-detail-heading"><p>07 / CONTENT AND OPERATIONS</p><h2>班级公众号“三叁不息”</h2></header>
+              <section class="work-stack-gallery" data-stack-gallery aria-label="三叁不息代表内容">
+                <header class="work-stack-header">
+                  <div><p>SELECTED POSTS / 02</p><h3>栏目与活动推送</h3></div>
+                  <span>PRESS + DRAG <b aria-hidden="true">↔</b></span>
+                </header>
+                <div class="work-stack-viewport" data-stack-viewport tabindex="0" aria-label="按住并左右拖动浏览两张代表内容图片">
+                  <div class="work-stack-track">
+                    <article class="work-stack-slide">
+                      <img class="work-stack-image" src="assets/work-ops-07-01-birthday.jpg" alt="旭日记岁生日专栏推送主视觉" loading="lazy" decoding="async">
+                      <a href="https://mp.weixin.qq.com/s/AgZm0BBfeLLaeSAgnqXNFA" target="_blank" rel="noopener"><span>01</span><strong>旭日记岁代表推送</strong><b>VIEW ORIGINAL ↗</b></a>
+                    </article>
+                    <article class="work-stack-slide">
+                      <img class="work-stack-image" src="assets/work-ops-07-03-midterm-report.jpg" alt="日新 33 班学期中实践前期报告主视觉" loading="lazy" decoding="async">
+                      <a href="https://mp.weixin.qq.com/s/pYjyIZkF81-hjARZOFE7jw" target="_blank" rel="noopener"><span>02</span><strong>班级活动推送</strong><b>VIEW ORIGINAL ↗</b></a>
+                    </article>
+                  </div>
+                </div>
+                <p class="work-stack-help">按住图片左右拖动浏览 · 点击每张图片下方标题跳转原文</p>
+              </section>
+              <div class="work-detail-grid">
+                <dl class="work-detail-info"><div><dt>YEAR</dt><dd>2023—2024</dd></div><div><dt>ROLE</dt><dd>栏目策划 · 内容制作</dd></div><div><dt>TYPE</dt><dd>班级媒体 · 日常运营</dd></div><div><dt>OUTPUT</dt><dd>生日专栏 · 活动推送</dd></div></dl>
+                <div class="work-detail-story"><section><h3>项目背景</h3><p>班级公众号承担日常记录和成员连接，需要稳定栏目与灵活内容共同维持更新节奏。</p></section><section><h3>我的工作</h3><p>参与“旭日记岁”生日专栏策划与制作，并完成班级活动的内容组织、视觉制作与推送排版。</p></section><section><h3>内容重点</h3><p>将成员故事、班级语气和统一视觉放在同一套栏目结构中，形成可持续复用的内容模板。</p></section></div>
+              </div>
+            </article>
+
+            <article id="workDetailDataOperations" class="work-detail" data-work-detail="data-operations" hidden>
+              <header class="work-detail-heading"><p>08 / CONTENT AND OPERATIONS</p><h2>商户数据与产品运营分析</h2></header>
+              <section class="work-pdf-preview" aria-label="2025 商户数据与产品运营分析报告预览">
+                <header><div><p>REPORT PREVIEW / 13 PAGES</p><h3>2025 数据与运营分析报告</h3></div><span>SCROLL INSIDE TO READ ↓</span></header>
+                <div class="work-pdf-pages" tabindex="0" aria-label="2025 商户数据与产品运营分析报告，共 13 页，可在区域内上下滚动阅读">
+                  <figure><img src="assets/work-data-operations-page-01.jpg" alt="报告第 1 页：2025 年第二季度商户上账数据分析封面" decoding="async"><figcaption>01 / 13</figcaption></figure>
+                  <figure><img src="assets/work-data-operations-page-02.jpg" alt="报告第 2 页：目录" loading="lazy" decoding="async"><figcaption>02 / 13</figcaption></figure>
+                  <figure><img src="assets/work-data-operations-page-03.jpg" alt="报告第 3 页：商户基本信息章节页" loading="lazy" decoding="async"><figcaption>03 / 13</figcaption></figure>
+                  <figure class="is-redacted"><img src="assets/work-data-operations-page-04.jpg" alt="报告第 4 页：商户基本信息，隐私数据已模糊" loading="lazy" decoding="async"><div class="report-redaction"><strong>PRIVATE DATA / PREVIEW REDACTED</strong><span>商户身份、品牌与经营规模信息已模糊</span></div><figcaption>04 / 13</figcaption></figure>
+                  <figure><img src="assets/work-data-operations-page-05.jpg" alt="报告第 5 页：上账数据分析章节页" loading="lazy" decoding="async"><figcaption>05 / 13</figcaption></figure>
+                  <figure class="is-redacted"><img src="assets/work-data-operations-page-06.jpg" alt="报告第 6 页：月度指标分析，数据已模糊" loading="lazy" decoding="async"><div class="report-redaction"><strong>REVENUE DATA / PREVIEW REDACTED</strong><span>上账、订单与提现金额数据已模糊</span></div><figcaption>06 / 13</figcaption></figure>
+                  <figure class="is-redacted"><img src="assets/work-data-operations-page-07.jpg" alt="报告第 7 页：东南亚上账分析，数据已模糊" loading="lazy" decoding="async"><div class="report-redaction"><strong>REVENUE DATA / PREVIEW REDACTED</strong><span>国家站点上账金额与趋势数据已模糊</span></div><figcaption>07 / 13</figcaption></figure>
+                  <figure class="is-redacted"><img src="assets/work-data-operations-page-08.jpg" alt="报告第 8 页：平台上账分析，数据已模糊" loading="lazy" decoding="async"><div class="report-redaction"><strong>REVENUE DATA / PREVIEW REDACTED</strong><span>平台上账金额、占比与增长数据已模糊</span></div><figcaption>08 / 13</figcaption></figure>
+                  <figure><img src="assets/work-data-operations-page-09.jpg" alt="报告第 9 页：汇率走势分析与贸易政策解读章节页" loading="lazy" decoding="async"><figcaption>09 / 13</figcaption></figure>
+                  <figure><img src="assets/work-data-operations-page-10.jpg" alt="报告第 10 页：国家汇率与贸易政策解读" loading="lazy" decoding="async"><figcaption>10 / 13</figcaption></figure>
+                  <figure><img src="assets/work-data-operations-page-11.jpg" alt="报告第 11 页：SEA 资源速递章节页" loading="lazy" decoding="async"><figcaption>11 / 13</figcaption></figure>
+                  <figure><img src="assets/work-data-operations-page-12.jpg" alt="报告第 12 页：重点项目" loading="lazy" decoding="async"><figcaption>12 / 13</figcaption></figure>
+                  <figure><img src="assets/work-data-operations-page-13.jpg" alt="报告第 13 页：结束页" loading="lazy" decoding="async"><figcaption>13 / 13</figcaption></figure>
+                </div>
+                <footer><p>可在页面内连续阅读；涉及商户身份、金额、上账与营收的数据已做隐私模糊处理。</p><span>FULL PDF ACCESS DISABLED</span></footer>
+              </section>
+              <div class="work-detail-grid">
+                <dl class="work-detail-info"><div><dt>YEAR</dt><dd>2025</dd></div><div><dt>ROLE</dt><dd>数据整理 · 行业研究 · 报告撰写</dd></div><div><dt>TYPE</dt><dd>商业分析 · 产品运营</dd></div><div><dt>OUTPUT</dt><dd>关键客户分析报告</dd></div></dl>
+                <div class="work-detail-story"><section><h3>项目背景</h3><p>项目需要将不同产品线、商户和行业资料转化为可用于讨论关键客户与品类趋势的分析结构。</p></section><section><h3>我的工作</h3><p>整理 B2B、B2C 商户与产品线数据，研究东南亚电商平台及品类趋势，并形成关键客户分析报告。</p></section><section><h3>报告预览</h3><p>上方提供 13 页连续预览。商户身份、金额、上账及营收相关内容已进行模糊处理，完整 PDF 暂不开放。</p></section></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div id="discoveringContent" class="discovering-content">
+          <section class="discover-section discover-overview" aria-labelledby="discoverOverviewTitle">
+            <header class="discover-section-meta">
+              <span>01 / 04</span>
+              <span>LAB STATUS · UPDATED 2026.10</span>
+            </header>
+            <div class="discover-intro">
+              <div>
+                <p class="discover-kicker">PERSONAL LAB / WORK IN PROGRESS / v0.1</p>
+                <h2 id="discoverOverviewTitle">这里收录的不是最终成果，<br>而是仍在生长的想法。</h2>
+              </div>
+              <p>我正在尝试用 AI 辅助编程把个人需求做成工具，也在探索代码、节奏、身体和交互之间可能建立的联系。</p>
+            </div>
+
+            <div class="discover-board">
+              <a class="discover-active-card" href="#groovebookExperiment">
+                <div class="discover-card-meta"><span>ACTIVE EXPERIMENT</span><b>BUILDING · v0.1</b></div>
+                <div class="discover-screen-slot has-image">
+                  <img src="assets/discovering-groovebook-overview.jpg" alt="Groovebook Today 总览界面，包含本周练习统计与动作卡片" decoding="async">
+                </div>
+                <div class="discover-card-copy"><div><h3>GROOVEBOOK</h3><p>舞蹈练习笔记与训练记录工具</p></div><span>VIEW EXPERIMENT ↓</span></div>
+              </a>
+
+              <div class="discover-mini-grid">
+                <article class="discover-mini-card">
+                  <div class="discover-card-meta"><span>METHOD NOTE</span><b>LEARNING</b></div>
+                  <h3>VIBE CODING</h3>
+                  <p>把真实问题转化为可使用、可继续判断的原型。</p>
+                  <span class="discover-partial">PARTIAL CONTENT / NOTE 01</span>
+                </article>
+                <article class="discover-mini-card is-next">
+                  <div class="discover-card-meta"><span>NEXT EXPERIMENT</span><b>NEXT</b></div>
+                  <h3>STRUDEL</h3>
+                  <p>代码 · 节奏 · 身体动作之间的下一次实验。</p>
+                  <span class="discover-partial">EMPTY SLOT / QUESTION DEFINED</span>
+                </article>
+              </div>
+
+              <aside class="discover-status" aria-label="Current lab status">
+                <p>LAB STATUS</p>
+                <ol>
+                  <li class="is-active"><span>BUILDING</span><strong>Groovebook</strong></li>
+                  <li><span>LEARNING</span><strong>Vibe Coding</strong></li>
+                  <li><span>NEXT</span><strong>Strudel</strong></li>
+                </ol>
+                <p class="discover-status-note">NO FINAL ANSWER YET.<br>THE PAGE GROWS WITH EACH TEST.</p>
+              </aside>
+            </div>
+          </section>
+
+          <section id="groovebookExperiment" class="discover-section discover-groovebook" aria-labelledby="groovebookTitle">
+            <header class="discover-section-meta">
+              <span>02 / 04</span>
+              <span>ACTIVE EXPERIMENT · BUILDING</span>
+            </header>
+            <div class="discover-project-heading">
+              <div><p class="discover-kicker">GROOVEBOOK / v0.1</p><h2 id="groovebookTitle">A PERSONAL DANCE<br>PRACTICE NOTEBOOK</h2></div>
+              <dl><div><dt>STATUS</dt><dd>BUILDING</dd></div><div><dt>VERSION</dt><dd>v0.1</dd></div><div><dt>FORMAT</dt><dd>LOCAL WEB APP</dd></div></dl>
+            </div>
+            <div class="discover-project-intro">
+              <p>我长期保持舞蹈和运动练习，也经常遇到动作难以归档、组合难以复习、练习过程无法持续记录的问题。</p>
+              <p>Groovebook 是我通过 vibe coding 制作的第一个较完整产品原型。它尝试把动作记录、组合编排、练习计时和进度回顾放进同一个本地工具。</p>
+            </div>
+
+            <div class="discover-screen-slot has-image is-hero">
+              <img src="assets/discovering-groovebook-overview.jpg" alt="Groovebook Today 产品总览界面" loading="lazy" decoding="async">
+            </div>
+
+            <div class="discover-groove-grid">
+              <section class="discover-list-panel"><p class="discover-kicker">CURRENTLY WORKING</p><ul><li>动作元素库与标签管理</li><li>熟练度、类别和难度筛选</li><li>手动编排与条件生成动作组合</li><li>练习计时与训练记录</li><li>练习时长和薄弱动作回顾</li><li>本地存储与响应式界面</li></ul></section>
+              <section class="discover-list-panel is-dashed"><p class="discover-kicker">NOT FINISHED YET</p><ul class="discover-checklist"><li>如何备份和迁移本地数据？</li><li>熟练度应主动标记，还是随练习变化？</li><li>自动组合如何更符合动作衔接逻辑？</li><li>是否需要加入音乐、节拍或视频参考？</li><li>第一次使用时，哪些功能需要引导？</li></ul></section>
+            </div>
+
+            <div class="discover-feature-grid" aria-label="Groovebook product screenshots">
+              <figure class="discover-screen-card"><img src="assets/discovering-groovebook-elements.jpg" alt="Groovebook Elements 动作元素库界面" loading="lazy" decoding="async"><figcaption><strong>ELEMENTS</strong><span>LIBRARY / FILTERS / TAGS</span></figcaption></figure>
+              <figure class="discover-screen-card"><img src="assets/discovering-groovebook-generator.jpg" alt="Groovebook Combo generator 动作组合生成界面" loading="lazy" decoding="async"><figcaption><strong>COMBO GENERATOR</strong><span>CONSTRAINTS / SEQUENCE</span></figcaption></figure>
+              <figure class="discover-screen-card"><img src="assets/discovering-groovebook-practice.jpg" alt="Groovebook Practice 练习计时界面" loading="lazy" decoding="async"><figcaption><strong>PRACTICE TIMER</strong><span>ACTIVE SESSION / PAUSED</span></figcaption></figure>
+              <figure class="discover-screen-card"><img src="assets/discovering-groovebook-progress.jpg" alt="Groovebook Progress 练习进度回顾界面，数据为截图演示记录" loading="lazy" decoding="async"><figcaption><strong>PROGRESS</strong><span>REVIEW / DEMO RECORDS</span></figcaption></figure>
+            </div>
+
+            <section class="discover-next-iteration"><p class="discover-kicker">NEXT ITERATION</p><ol><li>增加数据导入与导出</li><li>进行一次真实用户测试</li><li>重新整理移动端练习流程</li><li>探索动作组合与节奏生成之间的连接</li></ol></section>
+          </section>
+
+          <section class="discover-section discover-learning" aria-labelledby="vibeCodingTitle">
+            <header class="discover-section-meta"><span>03 / 04</span><span>LEARNING AND NEXT</span></header>
+            <article class="discover-vibe-note">
+              <div class="discover-project-heading">
+                <div><p class="discover-kicker">METHOD NOTE · LEARNING</p><h2 id="vibeCodingTitle">VIBE CODING</h2><p class="discover-subtitle">USING AI TO TURN QUESTIONS INTO TESTABLE PROTOTYPES</p></div>
+                <p>我把 AI 辅助编程视为一种快速验证想法的方法。相比“让 AI 帮我生成一个网页”，我更关心如何描述真实问题、拆解功能、判断生成结果，并在使用过程中发现下一轮需求。</p>
+              </div>
+              <ol class="discover-method" aria-label="Vibe coding method">
+                <li><span>01</span><strong>PERSONAL NEED</strong><small>个人需求</small></li>
+                <li><span>02</span><strong>DEFINE THE QUESTION</strong><small>描述问题</small></li>
+                <li><span>03</span><strong>BUILD A ROUGH PROTOTYPE</strong><small>制作粗糙原型</small></li>
+                <li><span>04</span><strong>USE IT</strong><small>实际使用</small></li>
+                <li><span>05</span><strong>NOTICE WHAT FEELS WRONG</strong><small>发现问题</small></li>
+                <li><span>06</span><strong>ITERATE ↩</strong><small>继续修改</small></li>
+              </ol>
+              <div class="discover-iteration-grid"><div class="discover-screen-slot"><span>ITERATION PLACEHOLDER</span><strong>EARLY VERSION</strong><em>4:3 / PROCESS MATERIAL PENDING</em></div><div class="discover-screen-slot"><span>ITERATION PLACEHOLDER</span><strong>CURRENT VERSION</strong><em>4:3 / PROCESS MATERIAL PENDING</em></div></div>
+              <blockquote><span>CURRENT NOTE</span><p>AI 可以加快原型出现的速度，但不能代替我判断什么值得制作、哪些功能真正有用，以及一个产品是否保留了自己的兴趣和审美。</p></blockquote>
+            </article>
+
+            <article class="discover-strudel" aria-labelledby="strudelTitle">
+              <div class="discover-project-heading"><div><p class="discover-kicker">NEXT EXPERIMENT · NOT STARTED</p><h2 id="strudelTitle">STRUDEL</h2><p class="discover-subtitle">CODE · RHYTHM · MOVEMENT</p></div><p>我希望通过 Strudel 理解代码、节奏与即兴创作之间的关系。第一个问题是：能否把舞蹈动作组合转化为可以练习的节奏模式？</p></div>
+              <div class="discover-experiment-slot">
+                <p>EXPERIMENT SLOT 01</p><span>QUESTION</span><h3>Can a movement sequence<br>become a rhythm pattern?</h3>
+                <div class="discover-slot-parts"><span>[ CODE SNIPPET PLACEHOLDER ]</span><span>[ AUDIO / WAVEFORM PLACEHOLDER ]</span></div>
+                <b>STATUS · NOT STARTED</b>
+              </div>
+              <div class="discover-strudel-grid"><section><p class="discover-kicker">FIRST STEPS</p><ul class="discover-checklist"><li>完成 Strudel 入门教程</li><li>建立一个四拍节奏模式</li><li>尝试改变速度、密度与循环结构</li><li>将一个舞蹈动作组合映射为节奏</li><li>记录第一次实验的代码和声音</li></ul></section><section><p class="discover-kicker">POSSIBLE CONNECTION</p><ol class="discover-connection"><li>Groovebook 中的动作组合</li><li>动作类别、难度与节拍信息</li><li>Strudel 节奏模式</li><li>可用于练习的声音提示</li></ol><p class="discover-disclaimer">DIRECTION ONLY / NOT IMPLEMENTED</p></section></div>
+            </article>
+          </section>
+
+          <section class="discover-section discover-log" aria-labelledby="discoverQuestionsTitle">
+            <header class="discover-section-meta"><span>04 / 04</span><span>OPEN QUESTIONS AND CHANGELOG</span></header>
+            <div class="discover-log-grid">
+              <section><p class="discover-kicker">OPEN QUESTIONS</p><h2 id="discoverQuestionsTitle">继续追问，而不是提前完成。</h2><ol class="discover-questions"><li>当 AI 降低制作门槛后，个人判断和审美会变得更重要吗？</li><li>身体动作可以如何转化为数据、节奏或交互？</li><li>一个只为自己设计的工具，什么时候值得分享给更多人？</li><li>如何让数字工具支持长期练习，而不是制造新的记录负担？</li><li>人文学科的观察方式可以怎样进入产品设计和技术实验？</li></ol></section>
+              <section class="discover-changelog"><p class="discover-kicker">CHANGELOG</p><article><time datetime="2026-10">2026.10</time><div><h3>Created the first Discovering structure.</h3><p>整理 Groovebook 的当前功能、学习方法与下一步问题。</p></div></article><article class="is-pending"><time>YYYY.MM</time><div><h3>Next real update goes here.</h3><p>只在实验真实发生变化后补充，不预先制造进度。</p></div></article></section>
+            </div>
+          </section>
+        </div>
+        <p class="panel-end" aria-hidden="true">END OF SECTION / RETURN TO TOP ↑</p>
+      </div>
+    </section>
+
+    <button id="resetWorkView" class="work-reset" type="button" aria-hidden="true" tabindex="-1">
+      ← RETURN TO INITIAL VIEW
+    </button>
+    <button id="workDetailBackGlobal" class="work-detail-back-global" type="button" aria-hidden="true" tabindex="-1">
+      ← BACK TO WORK INDEX
+    </button>
+  </main>
+
+  <script src="cosmos.js?v=20261008-1"></script>
+  <script src="work.js?v=20261009-22"></script>
+</body>
+</html>
